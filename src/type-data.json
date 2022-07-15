@@ -1,0 +1,149 @@
+{
+    "PokeTypes" : [
+        {
+            "ref": "normal",
+            "name": "Normal",
+            "color": "#A8A77A",
+            "no-effect": ["ghost"],
+            "super-effective": [],
+            "not-very-effective": ["rock", "ground"]
+        },
+        {
+            "ref": "fire",
+            "name": "Fire",
+            "color": "#EE8130",
+            "no-effect": [],
+            "super-effective": ["grass", "ice", "bug", "steel"],
+            "not-very-effective": ["fire", "water", "rock", "dragon"]
+        },
+        {
+            "ref": "water",
+            "name": "Water",
+            "color": "#6390F0",
+            "no-effect": [],
+            "super-effective": ["fire", "ground", "rock"],
+            "not-very-effective": ["water", "grass", "dragon"]
+        },
+        {
+            "ref": "electric",
+            "name": "Electric",
+            "color": "#F7D02C",
+            "no-effect": ["ground"],
+            "super-effective": ["water","flying"],
+            "not-very-effective": ["electric","grass","dragon"]
+        },
+        {
+            "ref": "grass",
+            "name": "Grass",
+            "color": "#7AC74C",
+            "no-effect": [],
+            "super-effective": ["water","ground","rock"],
+            "not-very-effective": ["fire","grass","poison","flying","bug","dragon","steel"]
+        },
+        {
+            "ref": "ice",
+            "name": "Ice",
+            "color": "#96D9D6",
+            "no-effect": [],
+            "super-effective": ["grass","ground","flying","dragon"],
+            "not-very-effective": ["fire","water","ice","steel"]
+        },
+        {
+            "ref": "fighting",
+            "name": "Fighting",
+            "color": "#C22E28",
+            "no-effect": ["ghost"],
+            "super-effective": ["normal","ice","rock","dark","steel"],
+            "not-very-effective": ["poison","flying","psychic","bug","fairy"]
+        },
+
+        {
+            "ref": "poison",
+            "name": "Poison",
+            "color": "#A33EA1",
+            "no-effect": ["steel"],
+            "super-effective": ["grass","fairy"],
+            "not-very-effective": ["poison","ground","rock","ghost"]
+        },
+        {
+            "ref": "ground",
+            "name": "Ground",
+            "color": "#E2BF65",
+            "no-effect": ["flying"],
+            "super-effective": ["fire","electric","poison","rock","steel"],
+            "not-very-effective": ["grass","bug"]
+        },
+        {
+            "ref": "flying",
+            "name": "Flying",
+            "color": "#A98FF3",
+            "no-effect": [],
+            "super-effective": ["grass","fighting","bug"],
+            "not-very-effective": ["electric","rock","steel"]
+        },
+        {
+            "ref": "psychic",
+            "name": "Psychic",
+            "color": "#F95587",
+            "no-effect": ["dark"],
+            "super-effective": ["fighting","poison"],
+            "not-very-effective": ["psychic","steel"]
+        },
+        {
+            "ref": "bug",
+            "name": "Bug",
+            "color": "#A6B91A",
+            "no-effect": [],
+            "super-effective": ["grass","psychic","dark"],
+            "not-very-effective": ["fire","fighting","poison","flying","ghost","steel","fairy"]
+        },
+        {
+            "ref": "rock",
+            "name": "Rock",
+            "color": "#B6A136",
+            "no-effect": [],
+            "super-effective": ["fire","ice","flying","bug"],
+            "not-very-effective": ["fighting","ground","steel"]
+        },
+        {
+            "ref": "ghost",
+            "name": "Ghost",
+            "color": "#735797",
+            "no-effect": ["normal"],
+            "super-effective": ["psychic","ghost"],
+            "not-very-effective": ["dark"]
+        },
+        {
+            "ref": "dragon",
+            "name": "Dragon",
+            "color": "#6F35FC",
+            "no-effect": ["fairy"],
+            "super-effective": ["dragon"],
+            "not-very-effective": ["steel"]
+        },
+        {
+            "ref": "dark",
+            "name": "Dark",
+            "color": "#705746",
+            "no-effect": [],
+            "super-effective": ["psychic","ghost"],
+            "not-very-effective": ["fighting","dark","fairy"]
+        },
+        {
+            "ref": "steel",
+            "name": "Steel",
+            "color": "#B7B7CE",
+            "no-effect": [],
+            "super-effective": ["ice","rock","fairy"],
+            "not-very-effective": ["fire","water","electric","steel"]
+        },
+        {
+            "ref": "fairy",
+            "name": "Fairy",
+            "color": "#D685AD",
+            "no-effect": [],
+            "super-effective": ["fighting","dragon","dark"],
+            "not-very-effective": ["fire","poison","steel"]
+        }
+    ]
+}
