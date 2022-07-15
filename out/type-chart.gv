@@ -1,5 +1,5 @@
 digraph "Pokemon Types" {
-	graph [fontname="Helvetica,Arial,sans-serif" label="Pokemon Types" layout=circo mindist=3]
+	graph [fontname="Helvetica,Arial,sans-serif" label="Pokemon Types" layout=circo mindist=2]
 	node [fixedsize=true fontname="Helvetica,Arial,sans-serif" shape=circle style=filled width=1]
 	normal [label=Normal color="#A8A77A"]
 	fire [label=Fire color="#EE8130"]
