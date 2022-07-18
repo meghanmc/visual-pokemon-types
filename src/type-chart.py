@@ -21,6 +21,7 @@ graph_args = {
     'layout': 'circo',
     'label': graph_title,
     'fontname': "Helvetica,Arial,sans-serif",
+    # 'splines':'curved', # IMO this looks nicer, but doesn't work with .render()
     'mindist': '2'  # used for circo, specifies the minimum distance between nodes.
 }
 

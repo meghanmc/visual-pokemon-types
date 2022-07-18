@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #333333;
+}
+#pokegraph {
+  width: 800px;
+  height: 800px;
+  background-color: #333333;
+}
+
+a {
+  color: #00B7FF;
+}
